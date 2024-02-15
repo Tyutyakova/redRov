@@ -15,9 +15,23 @@ public class Main {
     some.name = "Gey";
     some.age = 39;
 
+    Employee memb1 = new Employee();
+    memb1.salary = 101;
+    memb1.member = new Person();
+    memb1.member.name = "Kate";
+    memb1.member.gender = "w";
+    memb1.member.age = 39;
+
+    Employee memb2 = new Employee();
+    memb2.salary = 105;
+    memb2.member = new Person();
+    memb2.member.name = "Katy";
+    memb2.member.gender = "w";
+    memb2.member.age = 9;
+
     System.out.println(man.getName());
     System.out.println(women.getName());
-    System.out.println(some.getName());
+    System.out.println(memb2.isSameName(memb1));
 
   }
 }
