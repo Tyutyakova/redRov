@@ -16,7 +16,7 @@ public class Main {
     some.age = 39;
 
     Employee memb1 = new Employee();
-    memb1.salary = 101;
+    memb1.salary = 100;
     memb1.member = new Person();
     memb1.member.name = "Kate";
     memb1.member.gender = "w";

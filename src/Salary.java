@@ -3,11 +3,11 @@ import com.sun.source.tree.BreakTree;
 public class Salary {
 
   int getSum(Employee[] emplArr) {
-    int sum = 0;
+    int summ = 0;
     for (int i = 0; i < emplArr.length; i++) {
-      sum += emplArr[i].salary;
+      summ += emplArr[i].salary;
     }
-    return sum;
+    return summ;
   }
 
 }
