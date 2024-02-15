@@ -27,11 +27,18 @@ public class Main {
     memb2.member = new Person();
     memb2.member.name = "Katy";
     memb2.member.gender = "w";
-    memb2.member.age = 9;
+
+    Employee memb3 = new Employee();
+    memb3.salary = 103;
+    memb3.member = new Person();
+
+    Employee[] emArr = {memb1, memb2, memb3};
+    Salary method = new Salary();
 
     System.out.println(man.getName());
     System.out.println(women.getName());
     System.out.println(memb2.isSameName(memb1));
+    System.out.println(method.getSum(emArr));
 
   }
 }
