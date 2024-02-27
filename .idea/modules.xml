@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/redRov.iml" filepath="$PROJECT_DIR$/redRov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slack_yandex.iml" filepath="$PROJECT_DIR$/slack_yandex.iml" />
     </modules>
   </component>
 </project>
