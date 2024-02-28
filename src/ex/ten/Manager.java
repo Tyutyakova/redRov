@@ -7,6 +7,11 @@ public class Manager extends Worker {
         super(salary, name, baseSalary);
         this.numberOfSubordinates = numberOfSubordinates;
     }
+    public Manager(String name, double baseSalary, int numberOfSubordinates){
+        super(0.0, name, baseSalary);
+        this.numberOfSubordinates = numberOfSubordinates;
+
+    }
 
     public int getNumberOfSubordinates() {
         return this.numberOfSubordinates;
@@ -21,4 +26,11 @@ public class Manager extends Worker {
         return super.getBaseSalary() * (getNumberOfSubordinates()  / 100.0 * 3);
 
     }
+    public double getSalaryOrigin(){
+        return super.getSalary();
+    }
+    public double getBaseSalaryOrigin(){
+        return  super.getBaseSalary();
+    }
+
 }
