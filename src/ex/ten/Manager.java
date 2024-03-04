@@ -22,15 +22,10 @@ public class Manager extends Worker {
     }
     @Override
     public double getSalary(){
-        if (getNumberOfSubordinates() == 0 ) return super.getSalaryOrigin();
-        return super.getBaseSalary() * (getNumberOfSubordinates()  / 100.0 * 3);
+        if (getNumberOfSubordinates() == 0 ) return super.getSalary();
+        return getBaseSalary() * (getNumberOfSubordinates()  / 100.0 * 3);
 
     }
-    public double getSalaryOrigin(){
-        return super.getSalary();
-    }
-    public double getBaseSalaryOrigin(){
-        return  super.getBaseSalary();
-    }
+
 
 }
