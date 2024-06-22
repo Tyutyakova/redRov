@@ -43,25 +43,31 @@ public class Main {
 //    System.out.println(method.getSum(emArr));
 
 
+//
+//    Employe kate = new Employe();
+//    kate.setAge(25);
+//    kate.setName("Kate");
+//    kate.setGender("W");
+//    kate.setSalaryDay(10.0);
+//
+//
+//    Manager jim = new Manager();
+//    jim.setSalaryDay(10.0);
+//    jim.setWorkers(2);
+//    jim.setName("Jim");
+//    System.out.println(kate.getSalary(MonthUtils.WINTER_Month));
+//    System.out.println(jim.getSalary(MonthUtils.WINTER_Month));
+//
+//    LicensePlateMaker newPlateFromMonth = new LicensePlateMaker("CA",100);
+//    LicensePlate pl1 = newPlateFromMonth.makeNextPlate();
+//    System.out.println(pl1.getPlate());
+//    System.out.println(newPlateFromMonth.makeNextPlate().getPlate());
 
-    Employe kate = new Employe();
-    kate.setAge(25);
-    kate.setName("Kate");
-    kate.setGender("W");
-    kate.setSalaryDay(10.0);
-
-
-    Manager jim = new Manager();
-    jim.setSalaryDay(10.0);
-    jim.setWorkers(2);
-    jim.setName("Jim");
-    System.out.println(kate.getSalary(MonthUtils.WINTER_Month));
-    System.out.println(jim.getSalary(MonthUtils.WINTER_Month));
-
-    LicensePlateMaker newPlateFromMonth = new LicensePlateMaker("CA",100);
-    LicensePlate pl1 = newPlateFromMonth.makeNextPlate();
-    System.out.println(pl1.getPlate());
-    System.out.println(newPlateFromMonth.makeNextPlate().getPlate());
 
   }
+
+  public static int pow (int a, int b) {
+  return  (int) Math.pow(a,b);
+  }
+
 }
