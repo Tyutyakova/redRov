@@ -12,13 +12,16 @@ public class coreware {
 //    }
  public static void square(int num) {
   String begin = Integer.toString(num);
+  int temp = 1;
 char[] charArray = begin.toCharArray();
   int[]  fin = new int[charArray.length];
   for (int i = 0; i < charArray.length; i++){
      fin[i] = Character.getNumericValue(charArray[i]) * Character.getNumericValue(charArray[i]);
 
   }
+
    System.out.println(Arrays.toString(fin));
+
  }
 
  public static void main(String[] args) {
