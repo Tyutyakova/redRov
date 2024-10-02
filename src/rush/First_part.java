@@ -131,6 +131,60 @@ public class First_part {
             System.out.print("Б");
             System.out.println();
             a++;*/
+        //Вывести на экран сумму чисел от 1 до 100 включительно, не кратных 3. Для этого используй цикл while
+        /*int i = 0;
+        int sum = 0;
+        while (i < 100 ) {
+            i++;
+            if ( i % 3 == 0 ) {
+                continue; }
+            else {
+                sum += i;
+
+            }
+        }   System.out.println(sum);*/
+        //Вывести на экран второе по величине целое число после минимального из введенных с клавиатуры
+       /* Scanner scan = new Scanner(System.in);
+        int min = 0 ;
+        int min2 = 0;
+        int min3 = Integer.MAX_VALUE;
+
+        while ( scan.hasNextInt()) {
+            int temp = scan.nextInt();
+            min = temp;
+
+            while (scan.hasNextInt()) {
+                int sec = scan.nextInt();
+                min2 = sec;
+
+                if (min2 < min ) {
+                    min3 = min;
+                    min = min2;
+            }   else if( min3 > min2 && min != min2)
+            { min3 = min2;}
+                }
+
+
+            System.out.println( min3);
+        }*/
+      /*  Scanner console = new Scanner(System.in);
+        int min = Integer.MAX_VALUE;
+        int secondMin = Integer.MAX_VALUE;
+
+        while (console.hasNextInt()) {
+            int tmp = console.nextInt();
+            if (tmp < min) {
+                secondMin = min;
+                min = tmp;
+            } else if (tmp > min && tmp < secondMin) {
+                secondMin = tmp;
+            }
+        }
+
+        System.out.println(secondMin);
+    }*/
+
+
         }
     }
 
