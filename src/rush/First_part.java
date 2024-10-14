@@ -183,6 +183,21 @@ public class First_part {
 
         System.out.println(secondMin);
     }*/
+ /*       Scanner scanner = new Scanner(System.in);
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+        int multiple = scanner.nextInt();
+
+        int sum = 0;
+        //напишите тут ваш код
+        for(int i = start; i < end; i++) {
+            if (i % multiple != 0 ) continue;
+                sum += i;
+
+        }
+
+        System.out.println(sum);*/
+
 
 
         }
