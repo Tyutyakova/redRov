@@ -1,4 +1,6 @@
 package rush;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class First_part {
@@ -183,10 +185,38 @@ public class First_part {
 
         System.out.println(secondMin);
     }*/
+     /*   Scanner scanner = new Scanner(System.in);
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+        int multiple = scanner.nextInt();
 
+        int sum = 0;
+        //напишите тут ваш код
+        for(int i = start; i < end; i++) {
+            if (i % multiple != 0 ) continue;
+                sum += i;
 
         }
+
+        System.out.println(sum);
+*/
+
+
+        int[][] result = new int[2][];
+        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] first;
+        int[] second;
+
+        //напишите тут ваш код
+
+
+
     }
+}
+//  return x > 0 ? y > 0 ? 1 : 4 : y > 0 ? 2 : 3;
+
+
+
 
 
 
