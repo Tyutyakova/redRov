@@ -1,5 +1,7 @@
 package kata;
 
+import static kata.tin.mobilCost;
+
 public class Summ {
   public static int sum(int[] numbers)
   {
@@ -27,6 +29,7 @@ public class Summ {
     int[] min = {};
     System.out.println(Summ.sum(num));
     System.out.println(Summ.sum(min));
+    System.out.println( mobilCost());
 
   }
 }
