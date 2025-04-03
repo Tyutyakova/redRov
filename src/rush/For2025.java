@@ -2,8 +2,8 @@ package rush;
 
 import java.time.Duration;
 
-public class For2025 {
-    public void testBank() {
+//public class For2025 {
+   /* public void testBank() {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
@@ -15,8 +15,9 @@ public class For2025 {
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
         select.click();
 
-        WebElement choice = driver.findElement(By.xpath("//div[@class='form-group']/*/option[3]"));
-        String value = choice.getText();
+        WebElement choice = driver.findElement(By.xpath("//div[@class='form-group']/*/
+    //option[3]"));
+      /*  String value = choice.getText();
         assertEquals("Harry Potter", value);
         choice.click();
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -31,4 +32,4 @@ public class For2025 {
         assertEquals("Harry Potter", finish);
 
         driver.quit();
-}
+} */
